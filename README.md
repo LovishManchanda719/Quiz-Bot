@@ -37,6 +37,6 @@ node src/bot.js
 src/bot.js: Main bot logic.
 src/commands.js: Handles commands.
 src/triviaGenerator.js: Generates trivia questions.
-#Contributing
+# Contributing
 Fork the repo, create a branch, commit your changes, and submit a pull request!
 
