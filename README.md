@@ -1,16 +1,16 @@
-Discord Trivia Bot
+#Discord Trivia Bot
 A Discord bot for competitive trivia games! Answer AI-generated questions on various topics, track your score, and climb the leaderboard.
 
-Features
+#Features
 Dynamic Trivia: AI-generated questions on themes, countries, and fields.
 Leaderboard: Tracks scores of participants.
 Random Questions: No repeats during a session.
 Customizable: Defaults to Indian trivia if no country is specified.
-Commands
+#Commands
 !trivia [theme] [country] [field]: Starts a trivia game.
 Example: !trivia Science India Technology
 !leaderboard: Displays the top players.
-Setup
+#Setup
 Clone the repository:
 
 bash
@@ -33,10 +33,10 @@ Run the bot:
 bash
 Copy code
 node src/bot.js
-Structure
+#Structure
 src/bot.js: Main bot logic.
 src/commands.js: Handles commands.
 src/triviaGenerator.js: Generates trivia questions.
-Contributing
+#Contributing
 Fork the repo, create a branch, commit your changes, and submit a pull request!
 
